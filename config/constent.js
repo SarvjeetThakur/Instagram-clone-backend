@@ -1,0 +1,6 @@
+const SENDER_EMAIL = process.env.EMAIL_USER
+const SENDER_EMAIL_PASS = process.env.EMAIL_PASS
+const MIN_OTP_CODE = 10000
+const MAX_OTP_CODE = 99999
+
+module.exports = { SENDER_EMAIL, SENDER_EMAIL_PASS, MIN_OTP_CODE, MAX_OTP_CODE }

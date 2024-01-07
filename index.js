@@ -13,8 +13,6 @@ app.use(express.urlencoded({ extended: false }));
 
 const server = http.createServer(app);
 
-const io = initWebSocket(server)
-module.exports = io
 app.use("/api", userRouter);
 
 server.listen(process.env.PORT, () => {
