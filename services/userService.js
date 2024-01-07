@@ -1,6 +1,6 @@
 const userModel = require("../models/userModel")
 const bcrypt = require('bcrypt')
-const checkUniqueness = require("../util/common")
+const {checkUniqueness} = require("../util/common")
 const messages = require("../config/messageConfig")
 const io = require("..")
 
